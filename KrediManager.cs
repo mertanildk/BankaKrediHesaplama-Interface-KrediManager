@@ -14,7 +14,7 @@ namespace BankaKrediHesaplama
             
             krediAdi.FaizliTutar = krediAdi.Tutar + ((krediAdi.Tutar * krediAdi.Vade * krediAdi.FaizOrani) / 100);
             Console.WriteLine();
-            Console.Write("-----Kredi sonucunuz hesaplandı----- \n\nGeri ödenecek tutar:  "+Math.Round(krediAdi.FaizliTutar, 2));
+            Console.Write("-- --Kredi sonucunuz hesaplandı----- \n\nGeri ödenecek tutar:  "+Math.Round(krediAdi.FaizliTutar, 2));
             
             Aciklama(krediAdi);
 
